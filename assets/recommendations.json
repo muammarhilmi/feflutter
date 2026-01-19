@@ -1,0 +1,22 @@
+[
+  {
+    "shape": "oval",
+    "name": "Soft Pastel Oval",
+    "image": "assets/nailarts/oval_1.png"
+  },
+  {
+    "shape": "oval",
+    "name": "Gold Accent Oval",
+    "image": "assets/nailarts/oval_2.png"
+  },
+  {
+    "shape": "square",
+    "name": "Matte Square",
+    "image": "assets/nailarts/square_1.png"
+  },
+  {
+    "shape": "round",
+    "name": "Short Round Floral",
+    "image": "assets/nailarts/round_1.png"
+  }
+]
