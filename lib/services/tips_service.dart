@@ -4,7 +4,7 @@ import '../models/tip.dart';
 import 'auth_service.dart';
 
 class TipsService {
-  static const String baseUrl = "http://192.168.1.21:5001/api";
+  static String get baseUrl => AuthService.baseUrl;
 
   static Future<List<Tip>> fetchTips() async {
     final token = await AuthService.getToken();

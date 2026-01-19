@@ -4,12 +4,12 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 class AuthService {
   // --- KONFIGURASI IP ---
   static String get baseUrl {
-    const String ipLaptop = "192.168.1.21"; 
-    const String port = "5001";
-    return "http://$ipLaptop:$port/api"; 
+    return dotenv.env['API_URL'] ?? "http://10.0.2.2:5001/api"; 
   }
 
   // 1. LOGIN MANUAL
